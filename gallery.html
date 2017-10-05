@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+<head>
+    <title>GalleryTemplate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">
+  
+     body
+    {
+        background: url() no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    #bottomsl
+    {
+        position:relative;
+        overflow-x: auto;
+    }
+  
+	.mosaicimagecontainer
+	{
+		width: 175px;
+		height: 175px;
+		padding-left: 7px;
+		padding-top: 7px;
+		overflow: hidden;
+	} 
+
+	.mosaicimage
+	{
+		width: 125px;
+		height: 175px;
+		padding-left: 0px;
+		padding-top: 0px;
+		overflow: hidden;
+        border: 2px solid white;
+	} 
+
+	.navigationbar
+	{
+		
+		height: 44px;
+		padding-left: 0px;
+		padding-top: 0px;
+	}
+  </style>
+  <script>
+    function setImage(img) {
+        document.body.style.backgroundImage="url("+img+")";
+        //document.getElementById('bottomsl').style.top = (document.body.scrollHeight - 250 - 20) + 'px';
+    }
+    
+    window.onload = function() {
+        var itable = document.getElementById("mosaictable");
+        if(itable != null) {
+        if(itable.rows.length <= 0)
+        return;
+            var imgitem = itable.rows[0].cells[0].getElementsByTagName("span")[0];
+            if(imgitem != null) {
+                var itemimage = imgitem.getElementsByTagName("img")[0].src;
+                if(itemimage != null) {
+                    setImage(itemimage);
+                }
+            }
+        }
+        
+        document.getElementById('bottomsl').style.top = (document.body.scrollHeight - 250 - 20) + 'px';
+    }
+  </script>
+</head>
+<body>
+    <div id="navigationbar" class="navigationbar" style="text-align: center;">Gallery Title</div>
+    <div id="bottomsl" style="top: 140px;">&nbsp;
+        <table id="mosaictable" cellspacing="10" cellpadding="0">
+            <tbody>
+            <tr><td><span class="mosaicimagecontainer" title=""><a href="javascript:setImage('img1.png')"><img src="img1.png" class="mosaicimage" title="Picture1"></a></span></td><td><span class="mosaicimagecontainer" title=""><a href="javascript:setImage('img2.png')"><img src="img2.png" class="mosaicimage" title="Picture1"></a></span></td><td><span class="mosaicimagecontainer" title=""><a href="javascript:setImage('img4.png')"><img src="img4.png" class="mosaicimage" title="Picture1"></a></span></td><td><span class="mosaicimagecontainer" title=""><a href="javascript:setImage('img5.png')"><img src="img5.png" class="mosaicimage" title="Picture1"></a></span></td></tr></tbody>
+        </table>
+    </div>
+
+
+
+
+</body>
+</html>

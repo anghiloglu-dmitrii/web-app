@@ -1,0 +1,74 @@
+<xml>
+  <navigation type="simple" backgroundColor="#222" backgroundImage="" contentOverlap="" itemsPosition="" textStyle="0" textSize="10" textFont="" iosStyleNavigation="">
+    <items>
+      <item icon="icon-albums.png" text="Menu1" textColor="" selectedTextColor="#f44b23" selectedIcon="icon-albums-sel.png" backgroundImage="" selectedBackgroundImage="" backgroundColor="#222" selectedBackgroundColor="#333" />
+      <item icon="icon-albums.png" text="Menu2" textColor="" selectedTextColor="#f44b23" selectedIcon="icon-albums-sel.png" backgroundImage="" selectedBackgroundImage="" backgroundColor="#222" selectedBackgroundColor="#333" />
+      <item icon="icon-albums.png" text="Menu3" textColor="" selectedTextColor="#f44b23" selectedIcon="icon-albums-sel.png" backgroundImage="" selectedBackgroundImage="" backgroundColor="#222" selectedBackgroundColor="#333" />
+    </items>
+  </navigation>
+  <targetplatform simulator="WebApp">WebApp</targetplatform>
+  <template price="199.99" defaultPageTransition="none" id="GreenLeafs" scaleWebPagesToBaseResolution="false" topadtype="none" bottomadtype="none" globalLogo="" />
+  <prop id="appname" title="App Name">webapp</prop>
+  <planname>Basic</planname>
+  <description>
+  </description>
+  <page id="index.html" type="responsivemenu" kind="html" transition="" slidepageid="none" slidetransition="" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" hasreviewhtmlkey="no" title="Menu1" logo="" shownavbar="yes" openlinksonsametabview="no" zoomEnabled="false" hideLoadingAnimation="false" />
+  <page id="tab2.html" type="circlemenu" kind="html" transition="" slidepageid="none" slidetransition="" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" title="Menu2" logo="" shownavbar="yes" openlinksonsametabview="no" zoomEnabled="false" hideLoadingAnimation="false" hasreviewhtmlkey="no" />
+  <page id="mobilefacebook1.html" type="mobilefacebook" transition="NONE" slidepageid="" slidetransition="slide" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" hasreviewhtmlkey="no" kind="html" title="" logo="" interstitialadtype="none" transitionsound="" hidetabbaratpush="no" zoomEnabled="false" hideLoadingAnimation="false" />
+  <page id="mobiletwitter1.html" type="mobiletwitter" transition="NONE" slidepageid="" slidetransition="slide" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" hasreviewhtmlkey="no" kind="html" title="" logo="" interstitialadtype="none" transitionsound="" hidetabbaratpush="no" zoomEnabled="false" hideLoadingAnimation="false" />
+  <page id="mobileyoutube1.html" type="mobileyoutube" transition="NONE" slidepageid="" slidetransition="slide" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" hasreviewhtmlkey="no" kind="html" title="" logo="" interstitialadtype="none" hidetabbaratpush="no" />
+  <page id="Category1.html" type="elegantletterhtml" transition="NONE" slidepageid="none" slidetransition="slide" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" hasreviewhtmlkey="no" kind="html" title="" logo="" interstitialadtype="none" transitionsound="" hidetabbaratpush="no" zoomEnabled="false" hideLoadingAnimation="false" />
+  <page id="Category2.html" type="modernletterhtml" transition="NONE" slidepageid="none" slidetransition="slide" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" hasreviewhtmlkey="no" kind="html" title="" logo="" interstitialadtype="none" transitionsound="" hidetabbaratpush="no" zoomEnabled="false" hideLoadingAnimation="false" />
+  <page id="gallery.html" type="fgallery" transition="NONE" slidepageid="none" slidetransition="" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" hasreviewhtmlkey="no" kind="native" title="" logo="" interstitialadtype="none">
+    <webalbum title="Gallery Title">
+      <webpicture>
+        <title>Picture1</title>
+        <file>img1.png</file>
+        <caption>
+        </caption>
+      </webpicture>
+      <webpicture>
+        <title>Picture1</title>
+        <file>img2.png</file>
+        <caption>
+        </caption>
+      </webpicture>
+      <webpicture>
+        <title>Picture1</title>
+        <file>img4.png</file>
+        <caption>
+        </caption>
+      </webpicture>
+      <webpicture>
+        <title>Picture1</title>
+        <file>img5.png</file>
+        <caption>
+        </caption>
+      </webpicture>
+    </webalbum>
+  </page>
+  <page id="Page1_6.html" type="samplemenu" kind="html" transition="NONE" slidepageid="none" slidetransition="" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" hasreviewhtmlkey="no" title="" logo="" interstitialadtype="none" transitionsound="" hidetabbaratpush="no" zoomEnabled="false" hideLoadingAnimation="false" />
+  <page id="nearbylocations1.html" type="nearbylocations" transition="NONE" slidepageid="none" slidetransition="" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" hasreviewhtmlkey="no" googleplaceapikey="" kind="native" title="" logo="" interstitialadtype="none" hidetabbaratpush="no" />
+  <file id="appStyles.xml" newsfile="yes">
+  </file>
+  <page id="tab3.html" type="stripesmenu" transition="" slidepageid="none" slidetransition="" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" hasreviewhtmlkey="no" kind="html" title="Menu3" logo="" shownavbar="yes" openlinksonsametabview="no" zoomEnabled="false" hideLoadingAnimation="false" />
+  <page id="aboutus.html" type="aboutus" kind="html" transition="NONE" slidepageid="" slidetransition="slide" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" title="" logo="" interstitialadtype="none" transitionsound="" hidetabbaratpush="no" zoomEnabled="false" hideLoadingAnimation="false" />
+  <page id="rss.html" type="rss" kind="html" transition="NONE" slidepageid="" slidetransition="slide" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" title="" logo="" interstitialadtype="none" transitionsound="" hidetabbaratpush="no" zoomEnabled="false" hideLoadingAnimation="false" />
+  <page id="category.html" type="iconmenu" kind="html" transition="NONE" slidepageid="none" slidetransition="none" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" hasreviewhtmlkey="no" title="" logo="" interstitialadtype="none" transitionsound="" hidetabbaratpush="no" zoomEnabled="false" hideLoadingAnimation="false" />
+  <page id="feedback.html" type="feedback" kind="native" transition="NONE" slidepageid="" slidetransition="slide" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" sendtoaddress="" headerimage="" confirmmessage="" submitbutton="SUBMIT" nextpage="" subjecttext="" showLocationPicker="yes" autoFillEnabled="false" autoFillSaveOnly="false" clearFormData="false" title="" logo="" interstitialadtype="none" hidetabbaratpush="no">
+    <field id="field1" label="Location:" type="location" required="yes" fieldlinescount="1" />
+    <field id="field2" label="Date:" type="date" required="yes" fieldlinescount="1" />
+    <field id="field3" label="Time:" type="time" required="yes" fieldlinescount="1" />
+    <field id="MJeubvFGbGfU" label="Email" type="email" required="yes" fieldlinescount="4" />
+    <field id="WgJqdtJThfQf" label="Description" type="multilinetext" required="yes" fieldlinescount="4" />
+  </page>
+  <page id="podcast.html" type="podcast" kind="html" transition="NONE" slidepageid="none" slidetransition="none" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" hasreviewhtmlkey="no" title="" logo="" interstitialadtype="none" transitionsound="" hidetabbaratpush="no" zoomEnabled="false" hideLoadingAnimation="false" />
+  <hostedresources>
+  </hostedresources>
+  <page id="Page1_1.html" type="menu" kind="html" transition="" slidepageid="none" slidetransition="" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" hasreviewhtmlkey="no" />
+  <page id="Page1_2.html" type="wpapplicationsmenu" kind="html" transition="" slidepageid="" slidetransition="slide" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" />
+  <page id="Page1_3.html" type="iOS7Menu" kind="html" transition="" slidepageid="" slidetransition="slide" hasreviews="no" hassend="no" hasfields="false" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" />
+  <page id="Page1_4.html" type="mediamenu" kind="html" transition="" slidepageid="none" slidetransition="" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" hasreviewhtmlkey="no" />
+  <page id="Page1_5.html" type="appsmenu" kind="html" transition="" slidepageid="none" slidetransition="" hasreviews="no" hassend="no" hasfields="no" topadtype="inherited" bottomadtype="inherited" dynamicdata="false" jsonurl="" hidebottombaratpush="no" hasreviewhtmlkey="no" />
+  <webapp version="2" />
+</xml>

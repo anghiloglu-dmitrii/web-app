@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+<head>
+  <title>GreenLeafs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="rssreader.js"></script>
+  <style type="text/css">
+      body{background: #000}
+      .podcast_title
+      {
+        font-family: Sans-Serif;
+        font-weight: 100;
+        font-size: 26px;
+        color: #fff;
+        text-align: center;
+        margin: auto;
+        position: absolute;
+        top: 37%; left: 0; bottom: 0; right: 0;
+      }
+      .podcast_header
+      {
+        width: 100%;
+        margin-bottom: -4px
+      }
+  </style>
+</head>
+<body>
+<div style="text-align:center; position:relative">
+    <img id="headerimage" src="podcastpageheader.png" class="podcast_header">
+    <h1 class="podcast_title" id="headertitle">PODCAST</h1>
+</div>
+
+<iframe frameborder="0" onload="RssTableResize();" id="podcasttable" width="100%" scrolling="no" src="http://dev4.seattleclouds.com/myapplications/grigore/GreenLeafs/podcastheadlines.ashx?rssurl=http%3A%2F%2Fsermons.myhcbc.com%2Fxml%2Fhcbcpodcast.xml" style="height: 4020px;"></iframe>
+ 
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+<head>
+  <title>4TabApp1</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript">
+    window.onload = function()
+    {
+        var pUrl = "";
+        var hdiv = document.getElementById("hiddendivid");
+        if (hdiv != null)
+        {
+            pUrl = (hdiv.innerText) ? hdiv.innerText : hdiv.textContent;
+        }
+        if (pUrl != "" && top === self)
+        {
+            window.location = pUrl;
+        }
+    }
+  </script>
+</head>
+<body><div id='hiddendivid' style='display:none'>http://www.youtube.com/</div></body>
+</html>
